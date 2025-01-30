@@ -1,0 +1,10 @@
+
+FROM node:23
+
+RUN mkdir -p /home/app
+
+WORKDIR /home/app
+
+EXPOSE 3333
+
+CMD ["npm", "run","dev"]

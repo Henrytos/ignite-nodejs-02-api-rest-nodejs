@@ -1,9 +1,9 @@
 
 FROM node
 
-RUN mkdir -p /home/app
+RUN mkdir -p /app
 
-WORKDIR /home/app
+WORKDIR /app
 
 COPY . .
 
